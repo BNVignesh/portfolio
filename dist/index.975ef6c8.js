@@ -533,15 +533,15 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"8lqZg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _scrollReveal = require("./scripts/scrollReveal");
-var _scrollRevealDefault = parcelHelpers.interopDefault(_scrollReveal);
-var _tiltAnimation = require("./scripts/tiltAnimation");
-var _tiltAnimationDefault = parcelHelpers.interopDefault(_tiltAnimation);
-var _scrollRevealConfig = require("./data/scrollRevealConfig");
-(0, _scrollRevealDefault.default)((0, _scrollRevealConfig.targetElements), (0, _scrollRevealConfig.defaultProps));
-(0, _tiltAnimationDefault.default)();
+var _scrollRevealJs = require("./scripts/scrollReveal.js");
+var _scrollRevealJsDefault = parcelHelpers.interopDefault(_scrollRevealJs);
+var _tiltAnimationJs = require("./scripts/tiltAnimation.js");
+var _tiltAnimationJsDefault = parcelHelpers.interopDefault(_tiltAnimationJs);
+var _scrollRevealConfigJs = require("./data/scrollRevealConfig.js");
+(0, _scrollRevealJsDefault.default)((0, _scrollRevealConfigJs.targetElements), (0, _scrollRevealConfigJs.defaultProps));
+(0, _tiltAnimationJsDefault.default)();
 
-},{"./scripts/scrollReveal":"54rka","./scripts/tiltAnimation":"72kAb","./data/scrollRevealConfig":"5aORV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"54rka":[function(require,module,exports) {
+},{"./scripts/scrollReveal.js":"54rka","./scripts/tiltAnimation.js":"72kAb","./data/scrollRevealConfig.js":"5aORV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"54rka":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function initScrollReveal(targetElements, defaultProps) {
